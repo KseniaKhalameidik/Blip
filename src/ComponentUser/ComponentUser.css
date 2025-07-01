@@ -1,0 +1,38 @@
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    transition: background-color 0.2s ease;
+}
+
+.names-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.user-profile:hover {
+    background-color: #FEA7D6;
+    cursor: pointer;
+}
+
+.user-profile .logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.user-profile .user-name .user-nick {
+    font-family: Optima, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.logo {
+    height: 40px;
+    width: 40px;
+}

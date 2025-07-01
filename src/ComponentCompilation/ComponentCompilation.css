@@ -1,0 +1,9 @@
+.comp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 8px 12px;
+    color: white;
+    border-bottom: 2px solid #FEA7D6;
+}

@@ -1,0 +1,102 @@
+.post {
+  background: #18191a;
+  color: #fff;
+  border-radius: 12px;
+  border: 1px solid rgb(113, 118, 123);
+  padding: 16px 18px 10px 18px;
+  width: 600px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0 auto;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  gap: 10px;
+}
+
+.post-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  margin-right: 8px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.user-name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.user-nick {
+  color: #aaa;
+  font-size: 15px;
+}
+
+.post-date {
+  color: #aaa;
+  font-size: 15px;
+}
+
+.post-text {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 14px;
+  white-space: pre-line;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  color: #888;
+  font-size: 15px;
+  margin-top: 4px;
+}
+
+.post-action {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.post-icon {
+  font-size: 18px;
+}
+
+.post-comment {
+  display: flex;
+  height: 24px;
+  width: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-repost {
+  display: flex;
+  height: 24px;
+  width: 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-like {
+  display: flex;
+  height: 22px;
+  width: 22px;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-stats {
+  display: flex;
+  height: 22px;
+  width: 22px;
+  align-items: center;
+  justify-content: center;
+}

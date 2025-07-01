@@ -1,0 +1,48 @@
+.post {
+  background: #18191a;
+  color: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  width: 600px;
+  font-family: sans-serif;
+}
+
+.user-post {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.post-input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  flex: 1;
+  outline: none;
+}
+
+.post-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.post-button {
+  background: #FEA7D6;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  white-space: nowrap;
+  align-self: flex-end;
+}
