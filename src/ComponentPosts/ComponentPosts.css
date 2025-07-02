@@ -36,6 +36,12 @@
   font-size: 15px;
 }
 
+.post-dot {
+  color: #aaa;
+  font-size: 15px;
+  margin: 0 4px;
+}
+
 .post-date {
   color: #aaa;
   font-size: 15px;
