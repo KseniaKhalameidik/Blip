@@ -6,36 +6,35 @@ import repost from "../assets/icons8-retweet-24.png"
 import like from "../assets/icons8-favorite-30.png"
 import stats from "../assets/icons8-statistics-48.png"
 
-const Post = () => {
+const Post = (props) => {
   return (
     <div className="post">
       <div className="post-header">
-        <img className="post-avatar" src={avatar} />
+        <img className="post-avatar" src={props.avatar} />
         <div>
-          <span className="user-name">О, тут камера</span>
-          <span className="user-nick">@CameraMan</span>
-          <span className="post-date"> · 29 июн.</span>
+          <span className="user-name">{props.userName}</span>
+          <span className="user-nick">{props.userNick}</span>
+          <span className="post-dot"> · </span>
+          <span className="post-date">{props.postDate}</span>
         </div>
       </div>
-      <div className="post-text">
-        Сегодня снова попал в объектив. Надеюсь, получился фотогенично
-      </div>
+      <div className="post-text">{props.postText}</div>
       <div className="post-actions">
         <div className="post-action">
           <span className="post-icon"><img className="post-comment" src={comment}></img></span>
-          <span>11 тыс.</span>
+          <span>{props.commentCount}</span>
         </div>
         <div className="post-action">
           <span className="post-icon"><img className="post-repost" src={repost}></img></span>
-          <span>4 тыс.</span>
+          <span>{props.repostCount}</span>
         </div>
         <div className="post-action">
           <span className="post-icon"><img className="post-like" src={like}></img></span>
-          <span>1 тыс.</span>
+          <span>{props.likeCount}</span>
         </div>
         <div className="post-action">
           <span className="post-icon"><img className="post-stats" src={stats}></img></span>
-          <span>124 тыс.</span>
+          <span>{props.statsCount}</span>
         </div>
       </div>
     </div>
