@@ -3,9 +3,9 @@ import './App.css';
 import avatar1 from "./assets/Cat1.jpeg";
 import avatar2 from "./assets/Cat2.jpeg";
 import avatar3 from "./assets/Cat3.jpeg";
+import UserLogo1 from './assets/icons8-пользователь-мужчина-в-кружке-50.png'
 import Icon from './ComponentIcon/ComponentIcon';
 import User from './ComponentUser/ComponentUser';
-import Compilation from './ComponentCompilation/ComponentCompilation';
 import UserPost from './ComponentUserPost/ComponentUserPost';
 import Post from './ComponentPosts/ComponentPosts';
 
@@ -15,8 +15,7 @@ function App() {
     <main>
       <Icon />
       <User />
-      <Compilation />
-      <UserPost />
+      <UserPost avatar={UserLogo1}/>
       <Post 
       avatar={avatar1} 
       userName="О, тут камера" 
